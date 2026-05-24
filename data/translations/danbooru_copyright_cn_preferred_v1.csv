@@ -1,0 +1,281 @@
+tag,preferred_cn,alternatives,category,post_count,confidence,source,notes
+original,原创,original_character|/o,3,1450783,0.87,byzod+2026-04,byzod exact match
+touhou,东方,toho|/to,3,1030168,0.87,byzod+2026-04,byzod exact match
+kantai_collection,舰队收藏,kankore|kancolle|舰C,3,529537,0.87,byzod+2026-04,byzod exact match
+blue_archive,碧蓝档案,蔚蓝档案|Blue Archive|BA,3,388689,0.94,official/community review,热门二游大 IP 已覆盖；补充常见地区译名和英文缩写用于搜索
+fate_(series),Fate系列,,3,386497,0.82,byzod+ai校对+社区主流,byzod'命运（系列）'可更自然简写，社区常用'Fate系列'
+pokemon,宝可梦,pokémon|pokemons|pocket_monsters,3,368196,0.82,byzod+ai校对+社区主流,byzod旧译'宠物小精灵'已过时；社区/官方现主流'宝可梦'
+hololive,hololive,,3,298071,0.82,byzod+ai校对+社区主流,byzod'木口社（vtb）'不精确；品牌专有名称社区多保留'hololive'或'holo社'，暂用原文
+fate/grand_order,Fate/Grand Order,fgo,3,288699,0.82,byzod+ai校对+社区主流,byzod'命运/大订单'直译；国际/社区通用'Fate/Grand Order' (FGO)
+genshin_impact,原神,genshin,3,287511,0.87,byzod+2026-04,byzod exact match
+idolmaster,偶像大师,the_idolmaster|idolm@ster|idol_master,3,269525,0.87,byzod+2026-04,byzod exact match
+arknights,明日方舟,mingri_fangzhou,3,194678,0.87,byzod+2026-04,byzod exact match
+umamusume,赛马娘,uma_musume,3,192771,0.87,byzod+2026-04,byzod exact match
+vocaloid,VOCALOID,vocaloid_3|/vo|vocaloid_2,3,192217,0.87,byzod+2026-04,byzod exact match
+honkai_(series),崩坏（系列）,,3,166665,0.87,byzod+2026-04,byzod exact match
+azur_lane,碧蓝航线,bilan_hangxian,3,150099,0.87,byzod+2026-04,byzod exact match
+idolmaster_cinderella_girls,偶像大师灰姑娘女孩,cinderella_girls,3,132594,0.87,byzod+2026-04,byzod exact match
+love_live!,Love Live!,lovelive|爱生活,3,119662,0.94,official/community review,专有企划名，中文社区和官方物料通常保留 Love Live!；修正 byzod 误译“爱生活！”
+honkai:_star_rail,崩坏：星穹铁道,,3,116890,0.92,2026-04 index,官方译名《崩坏：星穹铁道》 (HoYoverse官网 hsr.hoyoverse.com + 维基百科；byzod exact tag miss，2026搜索校对补录)
+fire_emblem,火焰纹章,Fire Emblem|火焰之纹章,3,115342,0.92,official/community review,统一为简体社区/官方常用“火焰纹章”
+hololive_english,holoen(皮套人),,3,101233,0.87,byzod+2026-04,byzod exact match
+final_fantasy,最终幻想,/ff|finalfantasy,3,100899,0.87,byzod+2026-04,byzod exact match
+nijisanji,彩虹社(vtb),,3,82716,0.87,byzod+2026-04,byzod exact match
+mahou_shoujo_madoka_magica,魔法少女小圆,/pmmm|madoka_magica|puella_magi_madoka_magica,3,81011,0.87,byzod+2026-04,byzod exact match
+zenless_zone_zero,绝区零,zzz_(game),3,80021,0.92,2026-04 index,官方译名《绝区零》 (HoYoverse官网 zenless.hoyoverse.com + mihoyo.com；byzod miss，2026搜索校对)
+girls'_frontline,少女前线,girls_frontline,3,75167,0.87,byzod+2026-04,byzod exact match
+girls_und_panzer,少女与战车,,3,71297,0.87,byzod+2026-04,byzod exact match
+indie_virtual_youtuber,皮套人(个人势),,3,71181,0.87,byzod+2026-04,byzod exact match
+gundam,高达,,3,66337,0.87,byzod+2026-04,byzod exact match
+danganronpa_(series),弹丸论破（系列）,Danganronpa|弹丸论巴,3,64107,0.92,official/community review,统一通行译名“弹丸论破”
+precure,光之美少女,pretty_cure|Pretty Cure,3,63158,0.94,official/community review,系列中文通用译名；“霹雳Q娃”为早期/地区译名，不适合作主显示
+mahou_shoujo_madoka_magica_(anime),魔法少女小圆（动画）,魔法少女小圆|Puella Magi Madoka Magica,3,58520,0.92,manual authoritative review,与主系列同名动画条目，使用成熟中文名并加限定
+kemono_friends,兽娘动物园,,3,56773,0.87,byzod+2026-04,byzod exact match
+jojo_no_kimyou_na_bouken,JOJO的奇妙冒险,JJBA|JoJo’s Bizarre Adventure,3,52676,0.94,official/community review,使用完整通行中文标题，不只显示 jojo
+granblue_fantasy,碧蓝幻想,,3,51545,0.87,byzod+2026-04,byzod exact match
+one_piece,航海王,海贼王|ONE PIECE,3,49090,0.94,official/community review,官方简中/繁中常用《航海王》，社区常用《海贼王》；修正错译“一拳超人”
+honkai_impact_3rd,崩坏三,,3,48848,0.87,byzod+2026-04,byzod exact match
+bang_dream!,BanG Dream!,邦邦|バンドリ,3,48685,0.88,official/community review,官方品牌名保留 BanG Dream!，社区别名“邦邦”入 alternatives
+persona,女神异闻录,,3,44282,0.87,byzod+2026-04,byzod exact match
+idolmaster_shiny_colors,偶像大师 闪耀色彩,Shiny Colors|シャニマス,3,43783,0.92,official/community review,偶像大师子系列通行中文名；修正“闪亮颜色”直译
+fate/stay_night,Fate/stay night,命运之夜|FSN,3,42388,0.9,official/community review,TYPE-MOON 标题通常保留英文原名，中文名入别名
+idolmaster_(classic),偶像大师（经典）,,3,41929,0.87,byzod+2026-04,byzod exact match
+wuthering_waves,鸣潮,,3,41707,0.91,2026-04 index,官方译名《鸣潮》 (Kuro Games官网 wutheringwaves.kurogames.com + 维基；byzod miss，2026搜索校对)
+yu-gi-oh!,游戏王,yuu-gi-ou|/ygo|yuugioh,3,40665,0.87,byzod+2026-04,byzod exact match
+project_moon,Project Moon,月亮计划,3,40564,0.86,official/community review,公司/系列品牌名社区多保留英文，补充中文俗称
+chainsaw_man,电锯人,,3,40458,0.87,byzod+2026-04,byzod exact match
+boku_no_hero_academia,我的英雄学院,My Hero Academia|僕のヒーローアカデミア,3,39905,0.94,official/community review,通行中文译名；修正音译式误译“博库之英雄学院”
+love_live!_school_idol_project,Love Live! 学园偶像企划,Love Live! School idol project|lovelive,3,37844,0.9,official/community review,系列子企划名；修正 byzod 误译“爱生活！校园偶像”
+final_fantasy_vii,最终幻想7,/ff7|final_fantasy_7|ffvii,3,37640,0.87,byzod+2026-04,byzod exact match
+goddess_of_victory:_nikke,胜利女神：妮姬,,3,36332,0.9,2026-04 index,官方译名《胜利女神：妮姬》 (官网 nikke.hotcool.tw + 维基；byzod miss，2026搜索校对)
+the_legend_of_zelda,塞尔达传说,zelda_no_densetsu|/loz|legend_of_zelda,3,35802,0.87,byzod+2026-04,byzod exact match
+bang_dream!_it's_mygo!!!!!,BanG Dream! It’s MyGO!!!!!,MyGO!!!!!|BanG Dream! Ave Mujica,3,34290,0.9,official/community review,BanG Dream! 子企划/动画标题，保留官方品牌和 It’s MyGO!!!!! 标题写法
+neon_genesis_evangelion,新世纪福音战士,shin_seiki_evangelion|/nge|evangelion,3,33633,0.87,byzod+2026-04,byzod exact match
+league_of_legends,英雄联盟,,3,33259,0.87,byzod+2026-04,byzod exact match
+pokemon_swsh,宝可梦 剑/盾,Pokémon Sword/Shield|剑盾,3,32820,0.94,official/community review,修正下划线式显示，使用官方中文名
+final_fantasy_xiv,最终幻想14,ffxiv|/ff14|ff14,3,32790,0.87,byzod+2026-04,byzod exact match
+fire_emblem_heroes,火焰纹章 英雄,Fire Emblem Heroes,3,32602,0.92,official/community review,手游官方标题
+link!_like!_love_live!,Link! Like! Love Live!,莲之空女学院学园偶像俱乐部|蓮之空女学院スクールアイドルクラブ,3,32022,0.86,official/community review,应用/企划品牌名通常保留英文，补充莲之空别名用于搜索
+ragnarok_online,仙境传说online,/ro|ragnarokonline,3,31489,0.87,byzod+2026-04,byzod exact match
+splatoon_(series),喷射战士（系列）,splatoon,3,31449,0.87,byzod+2026-04,byzod exact match
+street_fighter,街头霸王,/sf|streetfighter,3,31391,0.87,byzod+2026-04,byzod exact match
+idolmaster_million_live!,偶像大师 百万现场！,Million Live!|ミリオンライブ！,3,29860,0.9,official/community review,偶像大师子系列通行中文名
+pokemon_sv,宝可梦 朱/紫,Pokémon Scarlet/Violet|朱紫,3,29849,0.94,official/community review,宝可梦官方中文名
+fire_emblem:_three_houses,火焰纹章 风花雪月,Fire Emblem: Three Houses|风花雪月,3,29585,0.94,official/community review,任天堂官方/通行中文名；修正“三宫”误译
+limbus_company,Limbus Company,边狱公司,3,29375,0.88,official/community review,官方/商店标题保留英文，中文社区常称边狱公司
+bocchi_the_rock!,孤独摇滚！,Bocchi the Rock!|ぼっち・ざ・ろっく！,3,29326,0.94,official/community review,动画/漫画通行中文译名
+mario_(series),马里奥（系列）,,3,28866,0.87,byzod+2026-04,byzod exact match
+dragon_ball,七龙珠,/db|dragonball,3,28418,0.87,byzod+2026-04,byzod exact match
+xenoblade_chronicles_(series),异度神剑（系列）,Xenoblade Chronicles|异度之刃,3,27621,0.92,official/community review,任天堂官方中文常用“异度神剑”，保留社区“异度之刃”
+k-on!,轻音少女,k-on!!|k-on|kon!,3,26966,0.87,byzod+2026-04,byzod exact match
+princess_connect!,公主连结Re:Dive,公主连结|Princess Connect! Re:Dive|公主连接|priconne,3,26785,0.94,official/community review,修正“公主连接”为大陆社区更常用/官方标题体系“公主连结Re:Dive”，保留旧译和缩写别名
+toaru_majutsu_no_index,魔法禁书目录,to_aru_majutsu_no_index|a_certain_magical_index,3,26616,0.87,byzod+2026-04,byzod exact match
+pokemon_(anime),宝可梦（动画）,Pokémon anime|ポケットモンスター,3,25261,0.92,official/community review,更新旧译“口袋妖怪”为官方现用宝可梦
+lyrical_nanoha,魔法少女奈叶,,3,25216,0.87,byzod+2026-04,byzod exact match
+suzumiya_haruhi_no_yuuutsu,凉宫春日的忧郁,suzumiya_haruhi_no_yuutsu|/shny|the_melancholy_of_haruhi_suzumiya,3,25101,0.87,byzod+2026-04,byzod exact match
+world_witches_series,世界女巫系列,,3,25042,0.87,byzod+2026-04,byzod exact match
+project_sekai,初音未来：缤纷舞台,世界计划|Project SEKAI|PJSK|世界计划 缤纷舞台 feat. 初音未来|初音未来缤纷舞台,3,24872,0.94,official/community review,用户澄清：这里指当前热门手游 Project SEKAI/国服《初音未来：缤纷舞台》，不是旧作 Project DIVA 歌姬计划
+danganronpa_2:_goodbye_despair,弹丸论破2：再见绝望,super_danganronpa_2|dangan-ronpa_2|dangan_ronpa_2,3,24805,0.87,byzod+2026-04,byzod exact match
+marvel,漫威,Marvel|Marvel Comics|漫威漫画,3,24419,0.92,official/community review,Marvel 官方中文品牌名“漫威”
+utau,UTAU,歌声合成工具UTAU,3,24142,0.82,manual review,软件/引擎名通常保留英文大写，不作自由翻译
+naruto_(series),火影忍者（系列）,,3,24023,0.87,byzod+2026-04,byzod exact match
+danganronpa_v3:_killing_harmony,新弹丸论破V3：大家的自相残杀新学期,弹丸论破V3|Danganronpa V3: Killing Harmony,3,23982,0.9,official/community review,系列游戏通行中文标题
+sousou_no_frieren,葬送的芙莉莲,Frieren: Beyond Journey’s End|葬送のフリーレン,3,23763,0.94,official/community review,动画/漫画通行官方中文译名
+pokemon_sm,宝可梦 太阳/月亮,Pokémon Sun/Moon|日月,3,22873,0.92,official/community review,更新旧译“口袋妖怪”为官方现用宝可梦
+love_live!_sunshine!!,Love Live! Sunshine!!,LoveLive! Sunshine!!,3,22825,0.92,official/community review,系列标题通用写法保留品牌原文；修正 byzod 误译“爱生活！阳光！！”
+voiceroid,VOICEROID,语音合成软件VOICEROID,3,22769,0.82,manual review,软件品牌名保留英文大写
+gakuen_idolmaster,学园偶像大师,学園アイドルマスター|Gakuen Idolmaster,3,22054,0.92,official/community review,偶像大师子系列官方/社区通用中文名
+fate/extra,Fate/EXTRA,命运/EXTRA,3,21950,0.9,official/community review,TYPE-MOON 标题保留官方英文大小写
+guilty_gear,罪恶装备,/gg|guiltygear,3,21708,0.87,byzod+2026-04,byzod exact match
+mega_man_(series),洛克人（系列）,Mega Man|Rockman,3,21589,0.94,official/community review,Capcom 系列中文通用译名
+jujutsu_kaisen,咒术回战,Jujutsu Kaisen,3,21060,0.94,official/community review,动画/漫画通行中文译名
+reverse:1999,重返未来：1999,Reverse: 1999,3,20822,0.94,official/community review,游戏官方中文名
+love_live!_nijigasaki_high_school_idol_club,Love Live! 虹咲学园学园偶像同好会,虹咲学园学园偶像同好会|LoveLive! Nijigasaki,3,20644,0.9,official/community review,Love Live! 虹咲子系列通用中文名
+xenoblade_chronicles_2,异度神剑2,Xenoblade Chronicles 2|异度之刃2,3,20415,0.92,official/community review,任天堂官方中文常用“异度神剑2”，保留社区“异度之刃2”
+kono_subarashii_sekai_ni_shukufuku_wo!,为美好的世界献上祝福,konosuba:_god's_blessing_on_this_wonderful_world!|konosuba|kono_subarashii_sekai_ni_shukufuku_o!,3,20374,0.87,byzod+2026-04,byzod exact match
+fire_emblem_fates,火焰纹章：命运,fire_emblem_if,3,20185,0.87,byzod+2026-04,byzod exact match
+re:zero_kara_hajimeru_isekai_seikatsu,Re:从零开始的异世界生活,Re:0|Re:Zero|re_zero,3,20064,0.94,official/community review,修正过短显示 re:0，使用动画/小说通行中文标题
+tales_of_(series),传说（系列）,,3,19783,0.87,byzod+2026-04,byzod exact match
+omori,OMORI,Omori,3,19671,0.86,official/community review,游戏标题通常保留英文大写
+monogatari_(series),物语（系列）,,3,19462,0.87,byzod+2026-04,byzod exact match
+senran_kagura,闪乱神乐,senran_kagura_(series),3,19332,0.87,byzod+2026-04,byzod exact match
+digimon,数码宝贝,Digimon|数码暴龙,3,19322,0.94,official/community review,通行中文译名；补充地区译名
+dragon_quest,勇者斗恶龙,/dq,3,19295,0.87,byzod+2026-04,byzod exact match
+overwatch,守望先锋,,3,18713,0.87,byzod+2026-04,byzod exact match
+kimetsu_no_yaiba,鬼灭之刃,Demon Slayer,3,18453,0.94,official/community review,修正过短显示“鬼灭”为完整通行标题
+bleach,BLEACH 境·界,死神|BLEACH,3,18446,0.9,official/community review,官方中文常见《BLEACH 境·界》，社区俗称死神
+bishoujo_senshi_sailor_moon,美少女战士,/bssm,3,18445,0.87,byzod+2026-04,byzod exact match
+real_life,现实生活,三次元|real life,3,18248,0.82,manual review,Danbooru 作品类泛标签，按语义译为现实生活
+pokemon_bw,宝可梦 黑/白,Pokémon Black/White|黑白,3,18063,0.92,official/community review,更新旧译“口袋妖怪”为官方现用宝可梦
+sword_art_online,刀剑神域,/sao,3,17917,0.87,byzod+2026-04,byzod exact match
+strike_witches,强袭魔女,Strike Witches,3,17198,0.94,official/community review,修正直译误译“罢工女巫”
+touken_ranbu,刀剑乱舞,torabu,3,17102,0.87,byzod+2026-04,byzod exact match
+fate/apocrypha,Fate/Apocrypha,命运/外典,3,16955,0.9,official/community review,TYPE-MOON 标题保留英文，中文通称外典入别名
+toaru_kagaku_no_railgun,某科学的超电磁炮,to_aru_kagaku_no_railgun|a_certain_scientific_railgun,3,16694,0.87,byzod+2026-04,byzod exact match
+sonic_(series),索尼克（系列）,Sonic the Hedgehog|刺猬索尼克,3,16207,0.94,official/community review,世嘉 Sonic 系列中文通用名
+idolmaster_cinderella_girls_starlight_stage,偶像大师 灰姑娘女孩 星光舞台,Starlight Stage|デレステ,3,16122,0.9,official/community review,偶像大师手游子标题通用中文名
+nijisanji_en,NIJISANJI EN,彩虹社EN|にじさんじEN,3,16104,0.88,official/community review,VTuber 分部名保留官方英文写法
+fate/zero,Fate/Zero,命运/零,3,16017,0.9,official/community review,TYPE-MOON 标题保留官方英文大小写
+the_king_of_fighters,拳皇,king_of_fighters|kingoffighters|kof,3,16002,0.87,byzod+2026-04,byzod exact match
+spy_x_family,间谍过家家,SPY×FAMILY|Spy x Family,3,15984,0.94,official/community review,动画/漫画通行中文译名
+kill_la_kill,斩服少女,,3,15957,0.87,byzod+2026-04,byzod exact match
+persona_5,女神异闻录5,Persona 5|P5,3,15948,0.94,official/community review,Atlus 游戏通行中文名
+nier_(series),尼尔（系列）,NieR|尼尔,3,15945,0.92,official/community review,Square Enix 系列通用中文名
+fire_emblem_awakening,火焰纹章 觉醒,Fire Emblem: Awakening|ファイアーエムブレム 覚醒,3,15904,0.92,official/community review,Fire Emblem 子作通行中文名
+pokemon_dppt,宝可梦 钻石/珍珠/白金,Pokémon Diamond/Pearl/Platinum|珍钻白金,3,15798,0.92,official/community review,宝可梦世代子作通行中文名
+gochuumon_wa_usagi_desu_ka?,请问您今天要来点兔子吗？,点兔|Is the Order a Rabbit?|Gochiusa,3,15797,0.94,official/community review,动画/漫画通行中文译名
+touhou_(pc-98),东方（PC-98）,Touhou PC-98|东方旧作,3,15719,0.9,manual cleanup,统一中文括号和 PC-98 显示格式
+final_fantasy_vii_remake,最终幻想VII 重制版,Final Fantasy VII Remake|FF7R,3,15519,0.94,official/community review,Square Enix 官方中文标题体系
+code_geass,反叛的鲁路修,code_geass_hangyaku_no_lelouch_r2,3,14843,0.87,byzod+2026-04,byzod exact match
+shingeki_no_kyojin,进击的巨人,Attack on Titan,3,14760,0.94,official/community review,动画/漫画通行中文译名
+science_adventure,科学冒险系列,科学ADV|Science Adventure,3,14493,0.9,official/community review,MAGES./5pb. 系列通用中文名
+bang_dream!_girls_band_party!,BanG Dream! 少女乐团派对,少女乐团派对|Garupa|バンドリ！ガールズバンドパーティ！,3,14354,0.92,official/community review,游戏官方中文名为“少女乐团派对”体系，保留 BanG Dream! 品牌
+utdr_(toby_fox),UNDERTALE / DELTARUNE,UTDR|Undertale|Deltarune,3,14283,0.88,official/community review,Toby Fox 两作合并标签，保留官方英文标题
+persona_4,女神异闻录,,3,14233,0.87,byzod+2026-04,byzod exact match
+persona_3,女神异闻录3,Persona 3|P3,3,14228,0.94,official/community review,Atlus 游戏通行中文名
+kirby_(series),星之卡比（系列）,Kirby|Hoshi no Kirby,3,14191,0.94,official/community review,任天堂系列中文通用名
+lucky_star,幸运星,/ls,3,14068,0.87,byzod+2026-04,byzod exact match
+saibou_shinkyoku,细胞神曲,Cell of Empireo|細胞神曲,3,13994,0.86,official/community review,修正误配；saibou_shinkyoku 对应《细胞神曲 / Cell of Empireo》而非《神曲奏界》
+nier:automata,尼尔：机械纪元,NieR:Automata,3,13947,0.94,official/community review,Square Enix 游戏官方/通行中文名
+tsukihime,月姬,真月谭月姬|Tsukihime,3,13909,0.94,official/community review,TYPE-MOON 作品通行中文名
+neptune_(series),海王星（系列）,,3,13817,0.87,byzod+2026-04,byzod exact match
+dungeon_meshi,迷宫饭,Delicious in Dungeon|ダンジョン飯,3,13809,0.94,official/community review,漫画/动画通行中文译名
+danganronpa:_trigger_happy_havoc,弹丸论破：希望的学园与绝望高中生,Danganronpa 1|Trigger Happy Havoc,3,13659,0.9,official/community review,系列首作通行中文标题
+tokyo_afterschool_summoners,东京放课后召唤师,放サモ|Tokyo Afterschool Summoners,3,13363,0.9,official/community review,手游通行中文名
+go-toubun_no_hanayome,五等分的新娘,The Quintessential Quintuplets,3,13091,0.94,official/community review,动画/漫画通行中文译名
+dragon_ball_z,龙珠Z,七龙珠Z|Dragon Ball Z,3,12954,0.94,official/community review,系列子标题通行中文名
+higurashi_no_naku_koro_ni,寒蝉鸣泣之时,暮蝉悲鸣时|When They Cry,3,12728,0.94,official/community review,视觉小说/动画通行中文译名
+stardust_crusaders,星尘斗士,JOJO的奇妙冒险 星尘斗士,3,12563,0.92,official/community review,JOJO 第三部通行中文标题
+magia_record:_mahou_shoujo_madoka_magica_gaiden,魔法纪录 魔法少女小圆外传,Magia Record|魔法少女小圆外传,3,12522,0.92,official/community review,手游/动画通行中文名
+darkstalkers,恶魔战士,Vampire Savior|Darkstalkers,3,12364,0.9,official/community review,Capcom 格斗游戏系列通行中文译名
+fire_emblem_engage,火焰纹章 Engage,Fire Emblem Engage|火焰纹章 结合,3,12219,0.9,official/community review,任天堂标题常保留 Engage，补充直译别名
+rwby,RWBY,四色战记,3,12169,0.86,official/community review,官方标题保留 RWBY，补充中文译名
+assault_lily,Assault Lily,突击莉莉|アサルトリリィ,3,12087,0.88,official/community review,企划标题常保留英文，中文社区通称突击莉莉
+pokemon_bw2,宝可梦 黑2/白2,Pokémon Black 2/White 2|黑2白2,3,12055,0.92,official/community review,宝可梦世代子作通行中文名
+blazblue,苍翼默示录,,3,12052,0.87,byzod+2026-04,byzod exact match
+elden_ring,艾尔登法环,Elden Ring,3,12021,0.94,official/community review,游戏官方中文名
+mahou_shoujo_lyrical_nanoha,魔法少女奈叶,mahou_shoujo_lyirical_nanoha|/msln|mahoushoujolyricalnanoha,3,12002,0.87,byzod+2026-04,byzod exact match
+dc_comics,DC漫画,DC Comics|DC宇宙,3,11984,0.92,official/community review,官方/通行中文品牌名
+mahou_shoujo_lyrical_nanoha_strikers,魔法少女奈叶,mahou_shoujo_lyirical_nanoha_strikers|/mslns,3,11945,0.87,byzod+2026-04,byzod exact match
+idolmaster_million_live!_theater_days,偶像大师 百万现场！剧场时光,Theater Days|ミリシタ,3,11884,0.9,official/community review,偶像大师手游子标题通用中文名
+cookie_(touhou),饼干（东方）,,3,11759,0.87,byzod+2026-04,byzod exact match
+kamen_rider,假面骑士,Masked Rider|仮面ライダー,3,11732,0.94,official/community review,特摄系列通行中文名
+monster_hunter_(series),怪物猎人（系列）,Monster Hunter|モンスターハンター,3,11703,0.94,official/community review,Capcom 系列官方中文名
+umineko_no_naku_koro_ni,海猫鸣泣之时,海猫|Umineko When They Cry,3,11654,0.94,official/community review,视觉小说/动画通行中文译名
+inazuma_eleven_(series),闪电十一人（系列）,,3,11619,0.87,byzod+2026-04,byzod exact match
+fate/kaleid_liner_prisma_illya,Fate/kaleid liner 魔法少女☆伊莉雅,魔法少女伊莉雅|Fate/kaleid liner Prisma Illya,3,11601,0.92,official/community review,修正机器直译“万花筒班轮”
+vspo!,VSPO!,ぶいすぽっ！|Virtual eSports Project,3,11596,0.84,official/community review,VTuber 企划品牌名通常保留 VSPO!
+rebuild_of_evangelion,新世纪福音战士新剧场版,福音战士新剧场版|Rebuild of Evangelion,3,11588,0.92,official/community review,EVA 新剧场版系列通行中文名
+gundam_suisei_no_majo,机动战士高达 水星的魔女,Gundam: The Witch from Mercury|水星的魔女,3,11270,0.94,official/community review,高达子作官方/通行中文名
+pokemon_legends:_z-a,宝可梦传说 Z-A,Pokémon Legends: Z-A,3,11264,0.9,official/community review,宝可梦官方标题，保留 Z-A
+pokemon_xy,宝可梦 X/Y,Pokémon X/Y,3,11254,0.92,official/community review,宝可梦世代子作通行中文名
+girls_band_cry,Girls Band Cry,少女乐队的呐喊|ガールズバンドクライ,3,11150,0.88,official/community review,官方品牌多保留英文，补充中文译名
+super_smash_bros.,任天堂明星大乱斗,Super Smash Bros.|大乱斗,3,11148,0.94,official/community review,任天堂系列官方/通行中文名
+eiyuu_densetsu,英雄传说,轨迹系列|The Legend of Heroes,3,11066,0.94,official/community review,Falcom 系列通行中文名
+rozen_maiden,蔷薇少女,Rozen Maiden,3,11040,0.94,official/community review,漫画/动画通行中文译名
+senki_zesshou_symphogear,战姬绝唱Symphogear,Symphogear|战姬绝唱,3,11031,0.92,official/community review,系列通行中文译名
+ensemble_stars!,偶像梦幻祭,Ensemble Stars!|あんスタ,3,11002,0.94,official/community review,手游/企划官方中文名
+tengen_toppa_gurren_lagann,天元突破,tengen_toppa_gurren-lagann|/ttgl|gurren_lagann,3,10841,0.87,byzod+2026-04,byzod exact match
+macross,超时空要塞,Macross,3,10438,0.94,official/community review,动画系列通行中文译名
+the_legend_of_zelda:_breath_of_the_wild,塞尔达传说：旷野之息,Breath of the Wild|旷野之息,3,10399,0.94,official/community review,任天堂官方中文名
+atelier_(series),炼金工房（系列）,Atelier|工作室系列|莱莎的炼金工房,3,10352,0.92,official/community review,Atelier 系列不等同于单作《莱莎的炼金工房》
+onii-chan_wa_oshimai!,别当欧尼酱了！,不当哥哥了！|Onimai,3,10328,0.92,official/community review,动画/漫画通行中文译名
+hololive_indonesia,hololive Indonesia,holoID|hololive ID,3,10284,0.88,official/community review,官方分部名保留英文
+ranma_1/2,乱马1/2,Ranma 1/2,3,10282,0.94,official/community review,漫画/动画通行中文名
+cardcaptor_sakura,魔卡少女樱,百变小樱|Cardcaptor Sakura,3,10215,0.94,official/community review,大陆通行/官方中文名优先，地区旧译入别名
+vento_aureo,黄金之风,JOJO的奇妙冒险 黄金之风|Golden Wind,3,10201,0.92,official/community review,JOJO 第五部通行中文标题
+axis_powers_hetalia,黑塔利亚 Axis Powers,黑塔利亚|Hetalia Axis Powers,3,10058,0.92,official/community review,系列通行中文名
+guilty_gear_strive,罪恶装备 -STRIVE-,GUILTY GEAR -STRIVE-,3,9962,0.92,official/community review,Arc System Works 游戏标题通行写法
+naruto_(classic),火影忍者（经典）,NARUTO,3,9895,0.92,official/community review,主系列经典时期标签，使用火影忍者限定
+resident_evil,生化危机,Resident Evil|Biohazard,3,9856,0.94,official/community review,Capcom 系列官方中文名
+pretty_series,美妙系列,Pretty Series|プリティーシリーズ,3,9823,0.88,official/community review,Takara Tomy/动画企划系列通用中文名
+battle_tendency,战斗潮流,JOJO的奇妙冒险 战斗潮流,3,9729,0.92,official/community review,JOJO 第二部通行中文标题
+lycoris_recoil,莉可丽丝,Lycoris Recoil|リコリス・リコイル,3,9664,0.92,official/community review,修正生硬直译“石蒜后坐力”
+fate/extra_ccc,Fate/EXTRA CCC,命运/EXTRA CCC,3,9613,0.9,official/community review,TYPE-MOON 标题保留官方英文大小写；修正“额外的ccc”
+nikki_(series),暖暖系列,Nikki|奇迹暖暖|闪耀暖暖,3,9591,0.92,official/community review,叠纸 Nikki 系列中文主名
+last_origin,Last Origin,最后的起源,3,9528,0.84,official/community review,游戏标题常保留英文，补充中文译名
+smile_precure!,Smile 光之美少女！,Smile Pretty Cure!|Smile Precure!,3,9372,0.92,official/community review,Precure 子系列通行中文名
+pokemon_masters_ex,宝可梦大师 EX,Pokémon Masters EX,3,9364,0.94,official/community review,宝可梦手游官方中文名
+naruto_shippuuden,火影忍者疾风传,Naruto Shippuden,3,9191,0.94,official/community review,动画第二部通行中文名
+pokemon_hgss,宝可梦 心金/魂银,HeartGold/SoulSilver|pokemon_heartgold_and_soulsilver,3,9173,0.92,official/community review,宝可梦世代子作通行中文名
+pokemon_legends:_arceus,宝可梦传说 阿尔宙斯,Pokémon Legends: Arceus,3,9057,0.94,official/community review,宝可梦官方中文名
+arknights:_endfield,明日方舟：终末地,Arknights: Endfield|终末地|Endfield,3,9045,0.94,2026 index + official/community review,用户点名补充；2026 copyright 索引存在，官方中文名《明日方舟：终末地》
+splatoon_3,斯普拉遁3,喷射战士3|Splatoon 3,3,9018,0.92,2026 index + community review,任天堂热门游戏子作，补充系列新作
+alien_stage,ALIEN STAGE,异星舞台|에일리언 스테이지,3,8976,0.88,2026 index + community review,新近热门企划，保留官方英文主标题，补充中文常称
+oshi_no_ko,我推的孩子,【我推的孩子】|Oshi no Ko,3,8903,0.94,2026 index + character-index review,热门动画/漫画 IP，2026 copyright 与角色库高频但此前未覆盖
+the_legend_of_zelda:_tears_of_the_kingdom,塞尔达传说：王国之泪,Tears of the Kingdom|TOTK|王国之泪,3,8596,0.94,2026 index + official/community review,任天堂热门大作，2026 copyright 索引高频但此前未覆盖
+helltaker,Helltaker,地狱把妹王,3,8567,0.9,2026 index + character-index review,热门独立游戏 IP，主标题保留英文，补充中文俗称
+panty_&_stocking_with_garterbelt,吊带袜天使,Panty & Stocking with Garterbelt|PSG,3,8564,0.92,2026 index + character-index review,热门动画 IP，2026 copyright 与角色库高频
+kobayashi-san_chi_no_maidragon,小林家的龙女仆,Miss Kobayashi's Dragon Maid|maidragon,3,8477,0.94,2026 index + character-index review,热门动画/漫画 IP，2026 copyright 与角色库高频
+aikatsu!_(series),偶像活动！（系列）,Aikatsu!|アイカツ！,3,8433,0.92,2026 index + character-index review,长线偶像企划，角色库高频未覆盖
+one-punch_man,一拳超人,One-Punch Man|one_punch_man,3,8376,0.94,2026 index + character-index review,大 IP 漏网补充；同时避免与 one_piece 再混淆
+ace_attorney,逆转裁判,Ace Attorney|Gyakuten Saiban,3,8285,0.94,2026 index + character-index review,Capcom 大 IP，角色库高频未覆盖
+gridman_universe,GRIDMAN UNIVERSE,古立特宇宙|グリッドマン ユニバース,3,8280,0.9,2026 index + character-index review,近年热门动画电影/系列宇宙，保留官方英文标题
+bakemonogatari,化物语,Bakemonogatari|物语系列,3,8157,0.94,2026 index + community review,物语系列重要子作，高频未覆盖
+undertale,UNDERTALE,传说之下,3,8137,0.92,2026 index + character-index review,热门独立游戏 IP，官方英文主标题保留，补充中文常称
+pokemon_oras,宝可梦 欧米伽红宝石/阿尔法蓝宝石,Pokémon ORAS|Omega Ruby/Alpha Sapphire|欧米伽红宝石|阿尔法蓝宝石,3,8061,0.92,2026 index + alias review,宝可梦世代子作漏网补充
+diamond_wa_kudakenai,不灭钻石,JOJO的奇妙冒险 不灭钻石|Diamond is Unbreakable,3,7968,0.92,2026 index + community review,JOJO 第四部高频子作补充
+punishing:_gray_raven,战双帕弥什,Punishing: Gray Raven|PGR|战双,3,7957,0.94,2026 index + character-index review,角色库高频未覆盖 IP；中文官方/社区通用名为战双帕弥什
+high_school_dxd,恶魔高校D×D,High School DxD|ハイスクールD×D|highschool_dxd,3,7936,0.94,2026 index + character-index review,用户点名 R16/17 向作品；2026 copyright 与角色库均高频
+metroid,银河战士,Metroid,3,7857,0.94,2026 index + character-index review,任天堂大 IP，角色库高频未覆盖
+ore_no_imouto_ga_konna_ni_kawaii_wake_ga_nai,我的妹妹哪有这么可爱！,Oreimo|My Little Sister Can't Be This Cute,3,7748,0.92,2026 index + character-index review,热门轻改/动画 IP，角色库高频未覆盖
+love_live!_superstar!!,Love Live! Superstar!!,LoveLive! Superstar!!|Liella!,3,7718,0.92,2026 index + community review,Love Live! 热门子企划漏网补充
+saki_(manga),天才麻将少女,Saki|咲-Saki-,3,7712,0.92,2026 index + character-index review,角色库高频动画/漫画 IP 补充
+steins;gate,命运石之门,STEINS;GATE|Steins Gate,3,7697,0.94,2026 index + character-index review,科学ADV 大 IP，角色库高频未覆盖
+street_fighter_6,街头霸王6,Street Fighter 6|SF6,3,7668,0.94,2026 index + community review,格斗游戏新作高频补充
+girls'_frontline_2:_exilium,少女前线2：追放,Girls' Frontline 2: Exilium|少前2|GF2|GFL2|少女前线2追放,3,7639,0.94,2026 index + alias/official review,用户点名补充；2026 copyright 索引存在，底层 alias 含少女前线2：追放/少前2/GFL2 等
+hunter_x_hunter,全职猎人,Hunter × Hunter|HUNTER×HUNTER|HxH,3,7586,0.94,2026 index + character-index review,经典大 IP，角色库高频未覆盖
+heaven_burns_red,绯染天空,Heaven Burns Red|ヘブンバーンズレッド|红烧天堂,3,7458,0.92,2026 index + character-index review,角色库/版权索引高频二游 IP，补充官方中文名
+sono_bisque_doll_wa_koi_wo_suru,更衣人偶坠入爱河,My Dress-Up Darling|恋上换装娃娃,3,7411,0.94,2026 index + character-index review,热门动画/漫画 IP，2026 copyright 与角色库高频
+mushoku_tensei,无职转生,Mushoku Tensei,3,7397,0.94,2026 index + character-index review,热门轻改/动画 IP，2026 copyright 与角色库高频
+apex_legends,Apex Legends,Apex英雄,3,7271,0.92,2026 index + character-index review,热门游戏 IP，主标题保留英文，补充中文官方名
+hibike!_euphonium,吹响！上低音号,Sound! Euphonium|響け！ユーフォニアム,3,7245,0.94,2026 index + character-index review,京都动画热门 IP，角色库高频未覆盖
+warship_girls_r,战舰少女R,Warship Girls R|战舰少女|zhan_jian_shao_nyu,3,7170,0.94,2026 index + character-index review,国产/国内游戏 IP，角色库高频未覆盖
+to_love-ru,出包王女,To LOVE-Ru|ToLoveる|toloveru|to_love_ru,3,7164,0.94,2026 index + character-index review,用户点名 R16/17 向作品；2026 copyright 与角色库均高频
+dead_or_alive,死或生,Dead or Alive|DOA|DOAX,3,6848,0.94,2026 index + character-index review,格斗/泳装游戏大 IP，角色库高频未覆盖
+kaguya-sama_wa_kokurasetai_~tensai-tachi_no_renai_zunousen~,辉夜大小姐想让我告白,Kaguya-sama: Love is War|辉夜大小姐,3,6807,0.94,2026 index + character-index review,热门动画/漫画 IP，角色库高频未覆盖
+dungeon_ni_deai_wo_motomeru_no_wa_machigatteiru_darou_ka,在地下城寻求邂逅是否搞错了什么,地错|DanMachi|Is It Wrong to Try to Pick Up Girls in a Dungeon?,3,6611,0.92,2026 index + character-index review,热门轻改/动画 IP，角色库高频未覆盖
+deltarune,DELTARUNE,三角符文,3,6514,0.92,2026 index + community review,热门独立游戏 IP，官方英文主标题保留，补充中文常称
+black_rock_shooter,BLACK★ROCK SHOOTER,黑岩射手|BRS,3,6474,0.92,2026 index + character-index review,经典视觉/动画/游戏 IP，角色库高频未覆盖
+ssss.gridman,SSSS.GRIDMAN,电光超人古立特|古立特,3,6472,0.9,2026 index + community review,热门动画 IP，保留官方标题，补充中文常称
+tekken,铁拳,TEKKEN,3,6466,0.94,2026 index + character-index review,格斗游戏大 IP，角色库高频未覆盖
+animal_crossing,动物森友会,Animal Crossing|集合啦！动物森友会|动森,3,6183,0.94,2026 index + character-index review,任天堂大 IP，角色库高频未覆盖
+clannad,CLANNAD,团子大家族,3,6181,0.9,2026 index + character-index review,Key 经典 IP，主标题保留英文
+angel_beats!,Angel Beats!,天使的心跳,3,6099,0.9,2026 index + character-index review,Key/PA 经典动画 IP，主标题保留英文
+fullmetal_alchemist,钢之炼金术师,Fullmetal Alchemist|FMA,3,6070,0.94,2026 index + character-index review,经典大 IP，角色库高频未覆盖
+gintama,银魂,Gintama,3,5948,0.94,2026 index + character-index review,经典大 IP，角色库高频未覆盖
+darling_in_the_franxx,DARLING in the FRANXX,国家队|比翼之吻,3,5947,0.9,2026 index + character-index review,热门动画 IP，主标题保留英文，补充中文常称
+dandadan,胆大党,DAN DA DAN|ダンダダン,3,5874,0.94,2026 index + community review,近年热门动画/漫画 IP，2026 copyright 高频未覆盖
+date_a_live,约会大作战,Date A Live|デート・ア・ライブ,3,5832,0.94,2026 index + byzod/community review,R16/17 邻近高频轻改作品；byzod 已有可靠中文名但未进 top200
+queen's_blade,女皇之刃,Queen's Blade|Queens Blade|クイーンズブレイド,3,5741,0.92,2026 index + character-index review,R16/17 向高频作品；角色库挂靠角色多
+needy_girl_overdose,主播女孩重度依赖,NEEDY GIRL OVERDOSE|Needy Streamer Overload,3,5729,0.94,2026 index + community review,热门独立游戏 IP 补充
+yahari_ore_no_seishun_lovecome_wa_machigatteiru.,我的青春恋爱物语果然有问题。,春物|Oregairu|My Teen Romantic Comedy SNAFU,3,5474,0.94,2026 index + character-index review,热门轻改/动画 IP，角色库高频未覆盖
+monster_musume_no_iru_nichijou,魔物娘的同居日常,Monster Musume|My Life with Monster Girls|モンスター娘のいる日常,3,5451,0.92,2026 index + character-index review,R16/17 向高频作品；角色库挂靠角色多
+meitantei_conan,名侦探柯南,Detective Conan|Case Closed,3,5350,0.94,2026 index + character-index review,经典大 IP，角色库高频未覆盖
+yurucamp,摇曳露营,摇曳露营△|Laid-Back Camp|Yuru Camp,3,5249,0.94,2026 index + character-index review,热门日常动画 IP，角色库高频未覆盖
+doki_doki_literature_club,心跳文学部！,Doki Doki Literature Club!|DDLC,3,5093,0.94,2026 index + character-index review,热门独立游戏 IP，角色库高频未覆盖
+devil_may_cry_(series),鬼泣（系列）,Devil May Cry|DMC,3,5039,0.94,2026 index + character-index review,Capcom 大 IP，角色库高频未覆盖
+path_to_nowhere,无期迷途,Path to Nowhere|wuqi_mitu,3,4777,0.94,2026 index + character-index review,国产/国内二游 IP；2026 copyright 与角色库均有数据
+made_in_abyss,来自深渊,Made in Abyss,3,4762,0.94,2026 index + character-index review,热门动画/漫画 IP，角色库高频未覆盖
+girls'_frontline_neural_cloud,少女前线：云图计划,云图计划|Project Neural Cloud|Neural Cloud,3,2766,0.94,2026 index + alias review,少前相关国产 IP；2026 copyright 索引存在，底层 alias 含云图计划
+to_love-ru_darkness,出包王女DARKNESS,To LOVE-Ru Darkness|ToLoveるダークネス|toloveru_darkness,3,2489,0.92,2026 index + community review,出包王女子系列，高频补充
+brown_dust_2,棕色尘埃2,Brown Dust 2|브라운더스트2,3,2272,0.9,2026 index + character-index review,角色库出现的新近二游 IP，补充通用中文名
+shokugeki_no_souma,食戟之灵,Food Wars!|食戟のソーマ|shokugeki_no_soma,3,2031,0.94,2026 index + alias review,底层 alias 已含食戟之灵，补充进作品层
+stellar_blade,剑星,Stellar Blade,3,1170,0.94,2026 index + official/community review,新近游戏 IP，2026 copyright 索引存在
+sora_no_otoshimono,天降之物,Heaven's Lost Property|そらのおとしもの,3,959,0.92,2026 index + character-index review,R16/17 邻近作品；角色库存在角色挂靠
+snowbreak:_containment_zone,尘白禁区,Snowbreak: Containment Zone|Project Snow|snow_break:_forbidden_descent,3,924,0.94,2026 index + character-index review,国产二游 IP；2026 copyright 与角色库均有数据
+rosario+vampire,十字架与吸血鬼,Rosario + Vampire|Rosario to Vampire|ロザリオとバンパイア,3,907,0.92,2026 index + character-index review,R16/17 邻近作品；角色库存在角色挂靠
+valkyrie_drive,女武神驱动,VALKYRIE DRIVE|ヴァルキリードライヴ,3,690,0.88,2026 index + character-index review,R16/17 向作品；中文社区常用女武神驱动
+sekirei,鹡鸰女神,Sekirei|セキレイ,3,672,0.92,2026 index + character-index review,R16/17 向作品；角色库存在角色挂靠
+shinmai_maou_no_testament,新妹魔王的契约者,The Testament of Sister New Devil|新妹魔王の契約者,3,638,0.94,2026 index + alias review,R16/17 向作品；底层 alias 已含中文
+mato_seihei_no_slave,魔都精兵的奴隶,Chained Soldier|魔都精兵のスレイブ,3,629,0.92,2026 index + character-index review,R16/17 邻近新番；版权索引与角色库均有数据
+aether_gazer,深空之眼,Aether Gazer,3,611,0.94,2026 index + character-index review,国产二游 IP；2026 copyright 与角色库均有数据
+isekai_maou_to_shoukan_shoujo_no_dorei_majutsu,异世界魔王与召唤少女的奴隶魔术,How Not to Summon a Demon Lord|異世界魔王と召喚少女の奴隷魔術,3,525,0.92,2026 index + character-index review,R16/17 向作品；版权索引与角色库均有数据
+prison_school,监狱学园,Prison School|監獄学園|kangoku_gakuen,3,482,0.92,2026 index + character-index review,R16/17 向作品；版权索引与角色库均有数据
+seikon_no_qwaser,圣痕炼金士,The Qwaser of Stigmata|聖痕のクェイサー,3,422,0.9,2026 index + community review,R16/17 向作品；版权索引存在
+monster_musume_td,魔物娘TD,Monmusu TD|モンスター娘TD,3,361,0.86,2026 index + character-index review,角色库挂靠较多的魔物娘相关游戏 IP
+maken-ki!,魔具少女！,Maken-Ki!|マケン姫っ!|魔劍姬!,3,358,0.9,2026 index + alias review,R16/17 向作品；底层 alias 含繁中译名
+hyakka_ryouran_samurai_girls,百花缭乱 SAMURAI GIRLS,百花缭乱|Hyakka Ryouran Samurai Girls|百花繚乱,3,331,0.9,2026 index + alias review,R16/17 向作品；底层 alias 含百花繚乱
+freezing_(series),零度战姬,Freezing|フリージング,3,238,0.9,2026 index + character-index review,R16/17 向作品；版权索引与角色库均有数据
+neverness_to_everness,异环,Neverness to Everness|NTE,3,71,0.92,2026 index + official/community review,用户补充：完美世界/Hotta Studio 新作；2026 copyright 索引存在，角色库已有 mint/nanally 等角色挂靠
+ash_echoes,白荆回廊,Ash Echoes,3,50,0.9,2026 index + character-index review,国产二游 IP；虽然 post_count 低，但用户要求补充新 IP
