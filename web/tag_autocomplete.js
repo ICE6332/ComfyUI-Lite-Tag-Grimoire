@@ -173,7 +173,7 @@ function makePanel() {
   panel.innerHTML = `
     <div class="ctg-collapsed"></div>
     <div class="ctg-list"></div>
-    <div class="ctg-footer">Alt 展开 · ↑↓ 选择 · Tab 补全 · Esc 关闭</div>
+    <div class="ctg-footer">Alt 展开/折叠 · ↑↓ 选择 · Tab 补全 · Esc 关闭</div>
   `;
   document.body.appendChild(panel);
   return panel;
@@ -367,7 +367,8 @@ function attach(el) {
     if (!state.active || state.active.el !== el || state.results.length === 0) return;
     if (event.key === "Alt") {
       event.preventDefault();
-      state.active.expanded = true;
+      if (event.repeat) return;
+      state.active.expanded = !state.active.expanded;
       render(state.active);
       return;
     }
