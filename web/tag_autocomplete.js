@@ -63,10 +63,10 @@ async function ensureIndex() {
           sourcePreferredNorm: normalize(item.source_preferred),
         }));
         state.loaded = true;
-        console.info("[comfyui-tags-graph] loaded", data.counts || state.items.length);
+        console.info("[lite-tag-grimoire] loaded", data.counts || state.items.length);
       })
       .catch((err) => {
-        console.error("[comfyui-tags-graph] failed to load index", err);
+        console.error("[lite-tag-grimoire] failed to load index", err);
         state.loading = null;
       });
   }
@@ -171,39 +171,50 @@ function makePanel() {
   const panel = document.createElement("div");
   panel.className = "ctg-panel";
   panel.innerHTML = `
+    <div class="ctg-collapsed"></div>
     <div class="ctg-list"></div>
-    <div class="ctg-footer">↑↓ 选择 · Tab 补全 · Esc 关闭 · Enter 保持原输入行为</div>
+    <div class="ctg-footer">Alt 展开 · ↑↓ 选择 · Tab 补全 · Esc 关闭</div>
   `;
   document.body.appendChild(panel);
   return panel;
 }
 
-function makeGhost() {
-  const ghost = document.createElement("div");
-  ghost.className = "ctg-ghost";
-  document.body.appendChild(ghost);
-  return ghost;
-}
-
 function positionPanel(el, panel) {
   const rect = el.getBoundingClientRect();
+  const collapsed = panel.classList.contains("collapsed");
   panel.style.left = `${Math.max(8, rect.left)}px`;
   panel.style.top = `${Math.min(window.innerHeight - 260, rect.bottom + 6)}px`;
-  panel.style.width = `${Math.max(320, Math.min(560, rect.width))}px`;
-}
-
-function positionGhost(el, ghost, text) {
-  const rect = el.getBoundingClientRect();
-  ghost.textContent = text;
-  ghost.style.left = `${Math.max(8, rect.left + 12)}px`;
-  ghost.style.top = `${Math.max(8, rect.bottom - 28)}px`;
-  ghost.style.maxWidth = `${Math.max(240, rect.width - 24)}px`;
+  panel.style.width = collapsed
+    ? `${Math.max(260, Math.min(420, rect.width))}px`
+    : `${Math.max(320, Math.min(560, rect.width))}px`;
 }
 
 function render(active) {
-  const { panel, ghost, el } = active;
+  const { panel, el } = active;
+  const collapsed = panel.querySelector(".ctg-collapsed");
   const list = panel.querySelector(".ctg-list");
+  const first = state.results[0];
+
+  panel.hidden = state.results.length === 0;
+  if (!first) {
+    positionPanel(el, panel);
+    return;
+  }
+
+  panel.classList.toggle("expanded", active.expanded);
+  panel.classList.toggle("collapsed", !active.expanded);
+  collapsed.innerHTML = renderCollapsed(first);
+  collapsed.onmousedown = (event) => {
+    event.preventDefault();
+    active.expanded = true;
+    render(active);
+  };
   list.textContent = "";
+
+  if (!active.expanded) {
+    positionPanel(el, panel);
+    return;
+  }
 
   state.results.forEach((item, index) => {
     const row = document.createElement("button");
@@ -228,16 +239,17 @@ function render(active) {
   });
   scrollSelectedIntoView(list);
 
-  const first = state.results[0];
-  if (first) {
-    const query = getCurrentQuery(el).query;
-    const suffix = first.tag.startsWith(query) ? first.tag.slice(query.length) : first.tag;
-    positionGhost(el, ghost, suffix ? `${query}${suffix}` : first.tag);
-  }
-
-  panel.hidden = state.results.length === 0;
-  ghost.hidden = state.results.length === 0;
   positionPanel(el, panel);
+}
+
+function renderCollapsed(item) {
+  return `
+    <span class="ctg-mini-main">
+      <code>${escapeHtml(item.tag)}</code>
+      <strong>${escapeHtml(getTranslation(item))}</strong>
+    </span>
+    <span class="ctg-mini-meta">${escapeHtml(getKindLabel(item))} · ${formatCount(item.post_count)} · Alt 展开 · Tab 补全</span>
+  `;
 }
 
 function scrollSelectedIntoView(list) {
@@ -289,7 +301,7 @@ async function update(el) {
     return;
   }
   if (!state.active || state.active.el !== el) {
-    state.active = { el, panel: makePanel(), ghost: makeGhost() };
+    state.active = { el, panel: makePanel(), expanded: false };
   }
   state.results = search(query);
   state.selected = 0;
@@ -314,7 +326,6 @@ function accept(item = state.results[state.selected]) {
 function close() {
   if (!state.active) return;
   state.active.panel.remove();
-  state.active.ghost.remove();
   state.active = null;
   state.results = [];
   state.selected = 0;
@@ -354,12 +365,20 @@ function attach(el) {
   el.addEventListener("blur", () => setTimeout(close, 150));
   el.addEventListener("keydown", (event) => {
     if (!state.active || state.active.el !== el || state.results.length === 0) return;
+    if (event.key === "Alt") {
+      event.preventDefault();
+      state.active.expanded = true;
+      render(state.active);
+      return;
+    }
     if (event.altKey || event.ctrlKey || event.metaKey || event.shiftKey) return;
     if (event.key === "ArrowDown") {
+      if (!state.active.expanded) return;
       event.preventDefault();
       state.selected = (state.selected + 1) % state.results.length;
       render(state.active);
     } else if (event.key === "ArrowUp") {
+      if (!state.active.expanded) return;
       event.preventDefault();
       state.selected = (state.selected - 1 + state.results.length) % state.results.length;
       render(state.active);
@@ -393,6 +412,54 @@ function injectStyles() {
       overflow: hidden;
       font: 13px/1.35 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
     }
+    .ctg-panel.collapsed {
+      cursor: pointer;
+    }
+    .ctg-panel.collapsed .ctg-list,
+    .ctg-panel.collapsed .ctg-footer {
+      display: none;
+    }
+    .ctg-panel.expanded .ctg-collapsed {
+      display: none;
+    }
+    .ctg-collapsed {
+      box-sizing: border-box;
+      display: grid;
+      gap: 3px;
+      min-width: 0;
+      padding: 8px 10px;
+      background: rgba(168, 96, 132, 0.28);
+    }
+    .ctg-mini-main {
+      min-width: 0;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+      gap: 12px;
+      align-items: baseline;
+    }
+    .ctg-mini-main code {
+      color: #f2edf0;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 13px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .ctg-mini-main strong {
+      color: #f5f1f4;
+      font-size: 13px;
+      font-weight: 650;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .ctg-mini-meta {
+      color: #b9aeb5;
+      font-size: 12px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
     .ctg-list { max-height: 320px; overflow-y: auto; padding: 4px; }
     .ctg-row {
       all: unset;
@@ -415,16 +482,6 @@ function injectStyles() {
     .ctg-cn-col span { color: #b5aab1; font-size: 12px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
     .ctg-cn-col strong { color: #f5f1f4; font-size: 14px; font-weight: 650; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
     .ctg-footer { border-top: 1px solid rgba(255, 255, 255, 0.1); color: #b9aeb5; padding: 7px 10px; font-size: 12px; }
-    .ctg-ghost {
-      position: fixed;
-      z-index: 99999;
-      pointer-events: none;
-      color: rgba(245, 241, 244, 0.36);
-      font: 13px/1.35 ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
-    }
   `;
   document.head.appendChild(style);
 }
